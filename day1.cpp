@@ -10,7 +10,7 @@ std::pair<int, int> task1CPP()
 {
     constexpr size_t input_size = 5;
     constexpr size_t space_size = 3;
-    std::ifstream file("read.txt");
+    std::ifstream file("day1Input.txt");
     std::string str; 
 
     std::priority_queue<int> Id1s;
